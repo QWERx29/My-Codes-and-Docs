@@ -1,7 +1,9 @@
 https://www.msgsafe.io
 
 可选后缀如下：
+
 ```
+
     airmailhub.com
     armormaiL.net
     bingzone.net
@@ -47,7 +49,6 @@ https://www.msgsafe.io
     xvzmallnro.com
     xyzmailhub.com
     yahooweb.co
+```
     
-    ```
-    
-    msgsafe邮箱只支持网页收发邮件，或者下载他们自家的手机app，不支持pop、imap等。发邮件可选GPG、S/MIME加密。
+msgsafe邮箱只支持网页收发邮件，或者下载他们自家的手机app，不支持pop、imap等。发邮件可选GPG、S/MIME加密。
