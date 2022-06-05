@@ -17,6 +17,10 @@ int main()
         return 0;
     }
     if(d==0) printf("x1=x2=%.5lf",x1);
-    else printf("x1=%.5lf;x2=%.5lf",x1,x2);
+    else 
+    {
+        if(x1<x2) printf("x1=%.5lf;x2=%.5lf",x1,x2);
+        else printf("x1=%.5lf;x2=%.5lf",x2,x1);
+    }
     return 0;
 }

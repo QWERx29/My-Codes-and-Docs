@@ -2,10 +2,11 @@
 using namespace std;
 int main()
 {
-	int a;
-	cin>>a;
-	if((int)a%2==0) cout<<"NO";
-	else cout<<"YES";
+	int x,y;
+	cin>>x>>y;
+	if(x>y) cout<<">";
+	else if(x==y) cout<<"=";
+	else cout<<"<";
 	return 0;
 }
 

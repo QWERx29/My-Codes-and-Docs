@@ -2,8 +2,9 @@
 #include<math.h>
 int main()
 {
-	int x1,y1,x2,y2;
-	scanf("%d%d%d%d",&x1,&y1,&x2,&y2);
-	double d=sqrt(pow((x1-x2),2)+pow((y1-y2),2));
+	double x1,y1,x2,y2;
+	scanf("%lf%lf%lf%lf",&x1,&y1,&x2,&y2);
+	double d=sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
 	printf("%.3lf",d);
+	return 0;
 }
