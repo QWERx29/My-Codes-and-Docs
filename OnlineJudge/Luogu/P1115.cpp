@@ -1,6 +1,7 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-int a[200050],b[200050],c[200050],n,minx=0,maxx=-999999;
+const int N=114514*2;
+int a[N],b[N],c[N],n,minx=0,maxx=-N;
 int main()
 {
 	cin>>n;
