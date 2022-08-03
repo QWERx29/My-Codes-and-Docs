@@ -12,8 +12,7 @@ int main()
 			if(i%j==0) {flag=false; break;}
 			else flag=true;
 		}
-		if(flag==true) {cout<<i<<" "; sum++;}
+		if(flag==true) {cout<<i<<"\n"; sum++;}
 	}
-	cout<<endl<<sum;
 	return 0;
 }

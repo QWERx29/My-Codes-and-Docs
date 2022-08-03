@@ -7,9 +7,7 @@ int q(int a)
 }
 int main()
 {
-	int n;
-	cin>>n;
-	for(int i=100;i<=n;i++)
+	for(int i=100;i<=999;i++)
 	{
 		if((q(i/100)+q(i%10)+q((i/10)%10))==i)
 			cout<<i<<endl;

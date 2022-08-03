@@ -11,6 +11,6 @@ int main()
         sum+=a;
     }
     ave=sum*1.0/n;
-    printf("%lf",ave);
+    printf("%.4lf",ave);
     return 0;
 }
